@@ -1,0 +1,1 @@
+git push --mirror https://github.com/gadanihiman/mainbareng.git

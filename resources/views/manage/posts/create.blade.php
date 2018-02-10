@@ -37,9 +37,9 @@
               <div class="selected-author">
                 <img src="https://placehold.it/50x50"/>
                 <div class="author">
-                  <h4>Alex Curtis</h4>
+                  <h4>{{ Auth::user()->name }}</h4>
                   <p class="subtitle">
-                    (jacurtis)
+                    {{ Auth::user()->name }}
                   </p>
                 </div>
               </div>

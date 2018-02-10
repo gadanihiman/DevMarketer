@@ -33,7 +33,7 @@
           <a href="{{route('register')}}" class="navbar-item is-tab">Register Here For Free!</a>
         @else
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">Hey {{Auth::user()->name}}</a>
+            <a class="navbar-link">{{Auth::user()->name}}</a>
             <div class="navbar-dropdown is-right" >
               <a href="#" class="navbar-item">
                 <span class="icon">
